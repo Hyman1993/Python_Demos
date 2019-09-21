@@ -12,7 +12,7 @@ class SpiderDemo1Spider(scrapy.Spider):
     # 爬虫名，启动爬虫时需要的参数*必需）
     name = "spider_demo1"
     # 爬取域范围，允许爬虫在这个域名下进行爬取（可选）
-    allowed_domains = ["itcast.cn"]
+    allowed_domains = ["qiita.com"]
     # qishiurl列表，爬虫执行后第一批请求，将从这个列表里获取
     start_urls = ["https://qiita.com/shimajiri"]
 
