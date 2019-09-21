@@ -11,10 +11,10 @@ import scrapy
 class ScrapyDemo1Item(scrapy.Item):
     # define the fields for your item here like:
     # 老师姓名
-    name = scrapy.Field()
+    date = scrapy.Field()
     # 老师职称
     title = scrapy.Field()
     # 老师信息
-    info = scrapy.Field()
+    url = scrapy.Field()
     #pass
 
