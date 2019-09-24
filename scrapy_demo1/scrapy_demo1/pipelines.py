@@ -9,7 +9,7 @@ import json
 
 class ScrapyDemo1Pipeline(object):
     def __init__(self):
-        self.f = open("scrapydemo1_pipeline.json", "w")
+        self.f = open("scrapydemo1_data.json", "w")
 
     def process_item(self, item, spider):
         content = json.dumps(dict(item), ensure_ascii = False) + ", \n"
